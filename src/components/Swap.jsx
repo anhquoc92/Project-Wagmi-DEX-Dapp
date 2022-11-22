@@ -1,8 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function Footer() {
-  return <Container>Footer Check Checl</Container>;
+export default function Swap() {
+
+
+
+
+
+
+  return <Container>Swap</Container>;
 }
 
 const Container = styled.div``;
+

@@ -12,15 +12,9 @@ export function App() {
   return (
     <Container>
       <div>
-        {/* <h1>wagmi + Create React App</h1> */}
         <Navbar />
-        {/* <Connect /> */}
-        {/* {isConnected && (
-          <>
-            <Account />
-            <NetworkSwitcher />
-          </>
-        )} */}
+        <MainSwap/>
+        <Footer/>
       </div>
     </Container>
   );

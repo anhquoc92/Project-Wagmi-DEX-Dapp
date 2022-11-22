@@ -5,12 +5,21 @@ export default function PageButton(props) {
   return (
     <Container>
       <div className="btn_page">
-        <span className = {props.isBold ? "pageButtonBold hoverBold" : "hoverBold"}>{props.name} </span>
+        <span
+          className={props.isBold ? "pageButtonBold hoverBold" : "hoverBold"}
+        >
+          {props.name}{" "}
+        </span>
       </div>
     </Container>
   );
 }
 
 const Container = styled.div`
+  .btn_page {
     color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
 `;
