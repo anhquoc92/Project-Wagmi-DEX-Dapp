@@ -26,4 +26,5 @@ const Container = styled.div`
   min-height: 100vh;
   background: rgb(255,222,236);
   background: linear-gradient(180deg, rgba(255,222,236,1) 0%, rgba(255,245,254,1) 100%);
+  border: 1px solid rgb(210, 217, 238);
 `;

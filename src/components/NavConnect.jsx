@@ -5,7 +5,7 @@ import { Connect } from "./Connect";
 export default function NavConnect() {
   return (
     <Container>
-      ConnectButton <Connect />{" "}
+      ConnectButton AAA
     </Container>
   );
 }
